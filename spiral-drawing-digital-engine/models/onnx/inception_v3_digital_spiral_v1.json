@@ -1,0 +1,29 @@
+{
+  "model_type": "unknown",
+  "framework": "pytorch",
+  "is_lightning": false,
+  "architecture": "InceptionV3",
+  "input_shape": [
+    3,
+    299,
+    299
+  ],
+  "num_classes": null,
+  "total_parameters": 26163402,
+  "trainable_parameters": 1051138,
+  "frozen_parameters": 25112264,
+  "model_size_mb": 99.95,
+  "export_timestamp": "2025-07-07T01:01:14.807969",
+  "pytorch_version": "2.7.1+cu126",
+  "original_file": "inception_v3_spiral_production.pt",
+  "task": "spiral_classification",
+  "classes": [
+    "healthy",
+    "parkinson"
+  ],
+  "input_size": [
+    299,
+    299
+  ],
+  "preprocessing": "normalize with ImageNet stats"
+}
